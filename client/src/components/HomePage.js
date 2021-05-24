@@ -37,8 +37,8 @@ const Home = () => {
               </Col>
               <Col className="instructions mt-2 px-3">
                 <div className="info">
-                  Zero Kata in India is same as <span>Tic Tak Toe</span> or{" "}
-                  <span>Nougths and Crosses</span> or
+                  Zero Kata in India is same as <span>Tic Tac Toe</span> or{" "}
+                  <span>Noughts and Crosses</span> or
                   <span> Xs and Os</span>{" "}
                 </div>
               </Col>
