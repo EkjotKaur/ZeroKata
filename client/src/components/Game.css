@@ -1,0 +1,174 @@
+.gameOuterContainer {
+  width: 700px;
+  /* height: 500px; */
+  /* background-color: white; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  margin: 30px auto;
+  padding: 30px 20px;
+  /* position: absolute; */
+  text-align: center;
+  border-radius: 2rem;
+  z-index: 10;
+  backdrop-filter: blur(2rem);
+}
+
+.object3,
+.object4 {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  /* background-color: red; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  position: absolute;
+
+  z-index: 1;
+}
+.object3 {
+  top: 2%;
+  right: 16%;
+}
+.object4 {
+  bottom: 0%;
+  left: 15%;
+}
+.board {
+  width: 240px;
+  height: 240px;
+  margin: 30px auto;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: violet; */
+  /* margin: auto; */
+  font-size: 3rem;
+  font-weight: 700;
+}
+.X {
+  color: royalblue;
+}
+.O {
+  color: rgb(255, 145, 0);
+}
+.box-0-0,
+.box-0-1,
+.box-0-2,
+.box-1-1,
+.box-1-2,
+.box-1-0 {
+  border-radius: px;
+  border-bottom: 4px solid rgb(3, 83, 70);
+}
+.box-2-0,
+.box-2-1,
+.box-2-2,
+.box-1-1,
+.box-1-2,
+.box-1-0 {
+  border-radius: px;
+  border-top: 4px solid rgb(3, 83, 70);
+}
+.box-0-0,
+.box-1-0,
+.box-2-0,
+.box-0-1,
+.box-1-1,
+.box-2-1 {
+  border-radius: px;
+  border-right: 4px solid rgb(3, 83, 70);
+}
+.box-0-2,
+.box-1-2,
+.box-2-2,
+.box-0-1,
+.box-1-1,
+.box-2-1 {
+  border-radius: px;
+  border-left: 4px solid rgb(3, 83, 70);
+}
+.headingImage {
+  width: 150px;
+}
+
+.titleDetails {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.code {
+  background: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  height: fit-content;
+  text-align: center;
+}
+.codeCopy {
+  background-color: rgb(17, 170, 150) !important;
+  color: white !important;
+  /* margin-left: auto; */
+  width: 70px;
+}
+.colCopy {
+  text-align: right;
+  padding: 0 !important;
+  /* width: 70px; */
+}
+
+.details {
+  padding: 5px 0;
+  text-align: left;
+  margin: 0 !important;
+}
+.row {
+  width: 100% !important;
+}
+.symbol {
+  font-family: "Montserrat", sans-serif;
+}
+.symbolDetail {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: rgb(2, 90, 83);
+}
+.Name {
+  font-size: 1.3rem;
+  color: rgb(7, 134, 117);
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 745px) {
+  .gameOuterContainer {
+    width: 90%;
+  }
+  .headingLogo {
+    width: 200px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .details {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .details-name {
+    flex-direction: column-reverse;
+  }
+  .colCopy{
+    text-align: center;
+  }
+}

@@ -1,0 +1,127 @@
+.gameOver {
+  width: 700px;
+  /* height: 500px; */
+  /* background-color: white; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  margin: 30px auto;
+  padding: 30px 20px;
+  /* position: absolute; */
+  text-align: center;
+  border-radius: 2rem;
+  z-index: 10;
+  backdrop-filter: blur(2rem);
+}
+.gameOverHeading {
+  font-size: 6rem;
+  font-family: "EB Garamond", serif;
+  font-weight: 800;
+  color: rgb(2, 56, 44);
+}
+.result {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+}
+.buttons {
+  text-align: center;
+  padding: 20px;
+}
+.GameOverBtn {
+  padding: 10px 50px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px;
+}
+.GameOverBtn:focus {
+  outline: none;
+}
+.goBack {
+  background: none !important;
+  /* border: 2px solid black !important; */
+  color: black !important;
+  border: 2px solid black !important;
+}
+.playAgain {
+  background: black !important;
+  border: 2px solid black !important;
+}
+.GameOverBtn:hover {
+  background: #222 !important;
+  border: 2px solid #222 !important;
+  color: #fff !important;
+}
+@media only screen and (max-width: 745px) {
+  .gameOver {
+    width: 90%;
+  }
+  .gameOverHeading {
+    font-size: 4rem;
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    color: rgb(2, 56, 44);
+  }
+  .result {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .GameOverBtn {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 529px) {
+  .gameOver {
+    width: 90%;
+  }
+  .gameOverHeading {
+    font-size: 3rem;
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    color: rgb(2, 56, 44);
+  }
+  .result {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .GameOverBtn {
+    padding: 7px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 5px;
+  }
+}
+@media only screen and (max-width: 394px) {
+  .gameOver {
+    width: 90%;
+  }
+  .gameOverHeading {
+    font-size: 2.4rem;
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    color: rgb(2, 56, 44);
+  }
+  .result {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .GameOverBtn {
+    padding: 7px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 5px;
+  }
+}

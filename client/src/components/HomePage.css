@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* .body {
+  overflow-y: hidden;
+  height: 1000vh;
+} */
+.homeOuterConatiner {
+  width: 100%;
+  text-align: center;
+  /* height: 100vh; */
+}
+.mainHeading {
+  width: 260px;
+  margin: auto;
+}
+.contentRow {
+  width: 100%;
+  padding: 0 40px;
+  align-items: stretch !important;
+}
+.instructions {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  /* height: 400px; */
+  z-index: 10;
+  backdrop-filter: blur(1.6rem);
+  border-radius: 2rem;
+  padding: 40px 25px;
+  /* width: 100%; */
+  text-align: justify !important;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.object6,
+.object5,
+.object7,
+.object9,
+.object8,
+.object11,
+.object12,
+.object13,
+.object10 {
+  border-radius: 50%;
+  width: 13rem;
+  height: 13rem;
+  /* background-color: red; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  position: absolute;
+
+  z-index: 1;
+}
+.object6 {
+  top: -14%;
+  left: -5%;
+}
+.object5 {
+  bottom: 15%;
+  left: -5%;
+}
+.object7 {
+  bottom: 4%;
+  left: 34%;
+}
+
+.object8 {
+  top: 20%;
+  left: 20%;
+}
+.object9 {
+  top: 23%;
+  right: 3%;
+}
+.object10 {
+  bottom: 0%;
+  right: 15%;
+}
+.object11 {
+  top: 35%;
+  right: 35%;
+}
+.object12 {
+  bottom: 0%;
+  right: 30%;
+  overflow-y: hidden;
+}
+.object13 {
+  bottom: 7%;
+  right: 35%;
+  /* overflow-y: hidden; */
+}
+
+.rules {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  padding: 0 0 10px 0;
+  color: rgb(1, 68, 55);
+  font-style: normal;
+}
+.playDiv {
+  z-index: 50000;
+
+  /* background: black; */
+}
+.playButton {
+  font-size: 1.4rem !important;
+  margin: 10px 0;
+  background-color: rgb(0, 0, 0) !important;
+  border-color: black !important;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 8px 1px rgb(39, 39, 39);
+  z-index: 3000 !important;
+}
+.gameImg {
+  text-align: center !important;
+  /* background: inherit; */
+}
+.gameImage {
+  margin: auto;
+  width: 230px;
+}
+.left {
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.info {
+  /* font-weight: ; */
+  font-style: normal;
+}
+.info span {
+  font-style: italic;
+  font-weight: 800;
+}
+.happy {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.winning {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 1244px) {
+  .object8 {
+    top: 25%;
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .object6,
+  .object5,
+  .object7,
+  .object9,
+  .object8,
+  .object11,
+  .object12,
+  .object13,
+  .object10 {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    background-color: red;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    position: absolute;
+
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .contentRow {
+    flex-direction: column-reverse;
+  }
+  /* .object5 {
+    top: 50%;
+    left: 5%;
+  }
+  .object7 {
+    bottom: 10%;
+    left: 30%;
+  }
+  .object8 {
+    bottom: -50%;
+    top: auto;
+    left: 6%;
+  }
+  .object10 {
+    bottom: -30%;
+    right: 5%;
+  }
+  .object11 {
+    top: 26%;
+    left: 26%;
+  } */
+  .object6,
+  .object5,
+  .object7,
+  .object9,
+  .object8,
+  .object11,
+  .object12,
+  .object13,
+  .object10 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 705px) {
+  .object6 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .object6,
+  .object5,
+  .object7,
+  .object9,
+  .object8,
+  .object11,
+  .object12,
+  .object13,
+  .object10 {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    position: absolute;
+
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .contentRow {
+    width: 100%;
+    padding: 0 20px;
+    align-items: stretch !important;
+  }
+  .rules {
+    font-size: 2rem;
+  }
+  .happy {
+    font-size: 2.1rem;
+  }
+  .mainHeading {
+    padding-top: 30px;
+    width: 200px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .object6,
+  .object5,
+  .object7,
+  .object9,
+  .object8,
+  .object11,
+  .object12,
+  .object13,
+  .object10 {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    background-color: red;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    position: absolute;
+
+    z-index: 1;
+  }
+  .object9 {
+    right: 10%;
+    top: 40%;
+    left: auto;
+  }
+  .object10 {
+    right: 10%;
+    /* top: 40%;
+    left: auto */
+  }
+  .object8 {
+    left: 10%;
+    /* top: 40%;
+    left: auto */
+  }
+  .object5 {
+    left: 10%;
+    /* top: 40%;
+    left: auto */
+  }
+}
+@media only screen and (max-width: 430px) {
+  .rules {
+    font-size: 1.8rem;
+  }
+  .happy {
+    font-size: 2rem;
+  }
+  .mainHeading {
+    padding-top: 30px;
+    width: 200px;
+    margin: auto;
+  }
+  .gameImage {
+    margin: auto;
+    width: 200px;
+  }
+  .winning {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .contentRow {
+    width: 100%;
+    padding: 0 5px;
+    align-items: stretch !important;
+  }
+}

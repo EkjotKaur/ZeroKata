@@ -1,0 +1,86 @@
+.joinInnerInnerContainer {
+  width: 400px;
+  /* height: 500px; */
+  /* background-color: white; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  margin: auto;
+  padding: 30px 20px;
+  /* position: absolute; */
+  text-align: center;
+  border-radius: 2rem;
+  z-index: 10;
+  backdrop-filter: blur(2rem);
+}
+
+.object1,
+.object2 {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  /* background-color: red; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  position: absolute;
+
+  z-index: 1;
+}
+.object1 {
+  top: 15%;
+  right: 30%;
+}
+.object2 {
+  bottom: 17%;
+  left: 28%;
+}
+
+.buttonJoin-1,
+.buttonJoin-2 {
+  width: 100%;
+  margin: 10px 0 5px 0;
+  /* background-color: rgb(17, 170, 150) !important; */
+}
+.buttonJoin-1 {
+  background-color: rgb(17, 170, 150) !important;
+  border-color: rgb(17, 170, 150) !important;
+}
+.buttonJoin-2 {
+  border-color: rgb(17, 170, 150) !important;
+  color: rgb(7, 87, 76) !important;
+  /* color: white !important; */
+}
+.buttonJoin-1:focus {
+  outline: rgb(17, 170, 150) !important;
+}
+.buttonJoin-2:hover {
+  background-color: rgb(17, 170, 150) !important;
+}
+.joinInput {
+  margin: 10px 0;
+}
+.heading {
+  color: rgb(1, 89, 92);
+  font-weight: 900;
+}
+.headingLogo {
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 460px){
+  .joinInnerInnerContainer{
+    width: 90%;
+  }
+  .headingLogo {
+    width: 200px;
+    padding-bottom: 20px;
+  }
+}
