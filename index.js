@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 5000;
 
 // const {addUser, removeUser, getUser, getUsersInRoom} = require('./user');
 
-const route = require("./routes");
-const { use } = require("./routes");
+// const route = require("./routes");
+// const { use } = require("./routes");
 const {
   addUser,
   removeUser,
