@@ -1,4 +1,1 @@
-# ChatApp
-
-- Ekjot Kaur
-"# ZeroKata" 
+# Zero Kata
